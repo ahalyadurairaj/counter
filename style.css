@@ -1,0 +1,66 @@
+body{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    height: 350px;
+}
+.number{
+    
+    padding: 20px;
+    height: 100%;
+    width:40%;
+
+    border-radius: 20px;
+    background-color: aliceblue;
+
+}
+
+#count{
+    text-align: center;
+    font-size:80px; 
+   
+}
+.butt #decrement:hover{
+    background-color: red;
+}
+.butt #increment:hover{
+    background-color:green;
+}
+.butt #result:hover{
+    background-color:yellow;
+
+}
+.butt #increment{
+    width:30%;
+    height:40px;
+    background-color: rgb(107, 224, 113);
+    border: none;
+    border-radius: 10px;
+}
+.butt #decrement{
+    width:30%;
+    height:40px;
+    background-color: rgb(241, 119, 19);
+    border: none;
+    border-radius: 10px;
+}
+.butt #reset{
+    width:30%;
+    height:40px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 10px;
+}
+.butt{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:40px
+}
